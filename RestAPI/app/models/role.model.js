@@ -1,7 +1,7 @@
 //role:{id, role_name, status}
 
 module.exports=(sequelize,Sequelize)=>{
-    const role=sequelize.define("role",{
+    const Role=sequelize.define("role",{
 
         id:{
             type:Sequelize.INTEGER,
@@ -22,6 +22,6 @@ module.exports=(sequelize,Sequelize)=>{
         }
     })
 
-    return role;
+    return Role;
 
 }

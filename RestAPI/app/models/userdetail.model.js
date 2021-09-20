@@ -1,7 +1,7 @@
 
 //userdetail: {id, name_en, name_si, name_ta,  dob, salary, special_req}
 module.exports=(sequelize,Sequelize)=>{
-    const userdetail=sequelize.define("userdetail",{
+    const userDetail=sequelize.define("userdetail",{
 
         id:{
             type:Sequelize.INTEGER,
@@ -42,7 +42,7 @@ module.exports=(sequelize,Sequelize)=>{
         }
     })
 
-    return userdetail;
+    return userDetail;
 
 
 }
